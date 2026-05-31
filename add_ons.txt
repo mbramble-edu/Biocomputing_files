@@ -1,0 +1,2 @@
+# print out all whitespace characters
+whitespace='sed '\''s/ /·/g;s/\t/￫/g;s/\r/§/g;s/$/¶/g'\'
