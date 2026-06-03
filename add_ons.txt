@@ -1,5 +1,5 @@
 # print out all whitespace characters
-alias whitespace='sed '\''s/ /·/g;s/\t/￫/g;s/\r/§/g;s/$/¶/g'\'
+alias whitespace="sed 's/ /·/g;s/\t/→/g;s/\r/§/g;s/$/¶/g'"
 
 #awk aliases to avoid setting separators
 alias awkcc='awk -F '\'','\'' -v OFS='\'','\'''
